@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Monstera deliciosa",
     "description": "Una planta tropical llamativa con hojas grandes y recortadas. Crece mejor con luz indirecta y agradece que la tierra se seque un poco entre riegos.",
-    "image": "/images/plants/plant-01.jpg",
+    "image": "images/plants/plant-01.jpg",
     "price": 38.000,
     "category": "Plantas de colección",
     "discountPercentage": 10
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Lengua de suegra",
     "description": "Una planta de porte vertical y muy resistente a la sequía, ideal para espacios con poca luz y riegos espaciados.",
-    "image": "/images/plants/plant-02.jpg",
+    "image": "images/plants/plant-02.jpg",
     "price": 26.000,
     "category": "Fáciles de cuidar",
     "discountPercentage": 5
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Poto dorado",
     "description": "Una enredadera resistente con hojas verdes y doradas en forma de corazón; se adapta bien a distintos niveles de luz interior.",
-    "image": "/images/plants/plant-03.jpg",
+    "image": "images/plants/plant-03.jpg",
     "price": 22.000,
     "category": "Plantas colgantes",
     "discountPercentage": 8
@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Zamioculca",
     "description": "Sus hojas brillantes y erguidas, junto con su resistencia a la sequía, la hacen perfecta para casa o la oficina.",
-    "image": "/images/plants/plant-02.jpg",
+    "image": "images/plants/plant-02.jpg",
     "price": 32.000,
     "category": "Fáciles de cuidar",
     "discountPercentage": 12
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Espatifilo",
     "description": "Su elegante follaje verde oscuro y sus flores blancas iluminan espacios con luz suave e indirecta.",
-    "image": "/images/plants/plant-04.jpg",
+    "image": "images/plants/plant-04.jpg",
     "price": 29.000,
     "category": "Poca luz",
     "discountPercentage": 15
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Ficus elástica",
     "description": "Un pequeño árbol de hojas brillantes que disfruta de la luz indirecta abundante y de un riego regular.",
-    "image": "/images/plants/plant-05.jpg",
+    "image": "images/plants/plant-05.jpg",
     "price": 44.000,
     "category": "Plantas de colección",
     "discountPercentage": 5
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Filodendro de hoja corazón",
     "description": "Una planta trepadora y fácil de cuidar, con hojas acorazonadas que caen con gracia desde estantes y macetas colgantes.",
-    "image": "/images/plants/plant-06.jpg",
+    "image": "images/plants/plant-06.jpg",
     "price": 24.000,
     "category": "Plantas colgantes",
     "discountPercentage": 10
@@ -66,7 +66,7 @@
     "id": 8,
     "name": "Ave del paraíso",
     "description": "Una llamativa planta tropical de hojas anchas. Colócala en un lugar luminoso y con espacio para crecer.",
-    "image": "/images/plants/plant-07.jpg",
+    "image": "images/plants/plant-07.jpg",
     "price": 68.000,
     "category": "Plantas de colección",
     "discountPercentage": 8
@@ -75,7 +75,7 @@
     "id": 9,
     "name": "Aglaonema",
     "description": "Sus hojas decorativas y su tolerancia a la poca luz la convierten en una planta muy versátil para interiores.",
-    "image": "/images/plants/plant-03.jpg",
+    "image": "images/plants/plant-03.jpg",
     "price": 34.000,
     "category": "Poca luz",
     "discountPercentage": 10
@@ -84,7 +84,7 @@
     "id": 10,
     "name": "Cinta",
     "description": "Una planta alegre de hojas arqueadas que se adapta con facilidad y produce pequeños brotes colgantes.",
-    "image": "/images/plants/plant-01.jpg",
+    "image": "images/plants/plant-01.jpg",
     "price": 18.000,
     "category": "Fáciles de cuidar",
     "discountPercentage": 7
@@ -93,7 +93,7 @@
     "id": 11,
     "name": "Ficus lira",
     "description": "Un árbol de interior con hojas grandes en forma de lira. Colócalo cerca de una ventana con luz filtrada abundante.",
-    "image": "/images/plants/plant-08.jpg",
+    "image": "images/plants/plant-08.jpg",
     "price": 58.000,
     "category": "Plantas de colección",
     "discountPercentage": 10
@@ -102,7 +102,7 @@
     "id": 12,
     "name": "Poto reina mármol",
     "description": "Un poto colgante de hojas jaspeadas en tonos crema que aporta luz a estantes y soportes para plantas.",
-    "image": "/images/plants/plant-09.jpg",
+    "image": "images/plants/plant-09.jpg",
     "price": 24.000,
     "category": "Plantas colgantes",
     "discountPercentage": 12
@@ -111,7 +111,7 @@
     "id": 13,
     "name": "Palma de salón",
     "description": "Una palmera compacta y clásica que aporta textura y crece bien con luz indirecta media o tenue.",
-    "image": "/images/plants/plant-10.jpg",
+    "image": "images/plants/plant-10.jpg",
     "price": 30.000,
     "category": "Apta para mascotas",
     "discountPercentage": 8
@@ -120,7 +120,7 @@
     "id": 14,
     "name": "Collar de perlas",
     "description": "Una suculenta singular de hojas redondas como pequeñas cuentas, perfecta para dejar caer desde una repisa soleada.",
-    "image": "/images/plants/plant-11.jpg",
+    "image": "images/plants/plant-11.jpg",
     "price": 20.000,
     "category": "Suculentas",
     "discountPercentage": 10
@@ -129,7 +129,7 @@
     "id": 15,
     "name": "Aloe vera",
     "description": "Una suculenta amante del sol y de hojas carnosas. Deja que el sustrato se seque por completo entre riegos.",
-    "image": "/images/plants/plant-12.jpg",
+    "image": "images/plants/plant-12.jpg",
     "price": 18.000,
     "category": "Suculentas",
     "discountPercentage": 5
@@ -138,7 +138,7 @@
     "id": 16,
     "name": "Calatea orbifolia",
     "description": "Sus hojas redondas con franjas verde plateado aportan un aire tropical. Prefiere luz indirecta y humedad constante.",
-    "image": "/images/plants/plant-13.jpg",
+    "image": "images/plants/plant-13.jpg",
     "price": 42.000,
     "category": "Follaje tropical",
     "discountPercentage": 8
@@ -147,7 +147,7 @@
     "id": 17,
     "name": "Drácena marginata",
     "description": "Una planta esbelta y erguida, de hojas finas y arqueadas, que luce muy bien en espacios luminosos.",
-    "image": "/images/plants/plant-14.jpg",
+    "image": "images/plants/plant-14.jpg",
     "price": 38.000,
     "category": "Fáciles de cuidar",
     "discountPercentage": 12
@@ -156,7 +156,7 @@
     "id": 18,
     "name": "Hiedra inglesa",
     "description": "Una enredadera clásica para macetas colgantes, ideal en habitaciones frescas con luz indirecta abundante.",
-    "image": "/images/plants/plant-15.jpg",
+    "image": "images/plants/plant-15.jpg",
     "price": 19.000,
     "category": "Plantas colgantes",
     "discountPercentage": 5
@@ -165,7 +165,7 @@
     "id": 19,
     "name": "Planta de jade",
     "description": "Una suculenta longeva de hojas redondas y brillantes. Dale un lugar soleado y riégala con poca frecuencia.",
-    "image": "/images/plants/plant-16.jpg",
+    "image": "images/plants/plant-16.jpg",
     "price": 22.000,
     "category": "Suculentas",
     "discountPercentage": 8
@@ -174,7 +174,7 @@
     "id": 20,
     "name": "Helecho de Boston",
     "description": "Sus frondas verdes y ligeras llenan de vida los ambientes luminosos y húmedos. Mantén la tierra ligeramente húmeda.",
-    "image": "/images/plants/plant-17.jpg",
+    "image": "images/plants/plant-17.jpg",
     "price": 28.000,
     "category": "Apta para mascotas",
     "discountPercentage": 10
@@ -183,7 +183,7 @@
     "id": 21,
     "name": "Monstera mínima",
     "description": "Una planta trepadora compacta con hojas naturalmente recortadas. Guíala por un tutor en un lugar luminoso y sin sol directo.",
-    "image": "/images/plants/plant-01.jpg",
+    "image": "images/plants/plant-01.jpg",
     "price": 36.000,
     "category": "Follaje tropical",
     "discountPercentage": 10
@@ -192,7 +192,7 @@
     "id": 22,
     "name": "Flor de cera",
     "description": "Una hoya resistente de hojas gruesas y tallos colgantes. Deja que el sustrato se seque entre riegos.",
-    "image": "/images/plants/plant-02.jpg",
+    "image": "images/plants/plant-02.jpg",
     "price": 27.000,
     "category": "Plantas colgantes",
     "discountPercentage": 5
@@ -201,7 +201,7 @@
     "id": 23,
     "name": "Anturio rojo",
     "description": "Sus hojas brillantes y flores rojas duraderas llenan de color un rincón cálido con luz indirecta.",
-    "image": "/images/plants/plant-03.jpg",
+    "image": "images/plants/plant-03.jpg",
     "price": 33.000,
     "category": "Plantas con flor",
     "discountPercentage": 10
@@ -210,7 +210,7 @@
     "id": 24,
     "name": "Planta china del dinero",
     "description": "Sus alegres hojas redondas crecen sobre tallos erguidos. Gírala de vez en cuando para que reciba luz de manera uniforme.",
-    "image": "/images/plants/plant-03.jpg",
+    "image": "images/plants/plant-03.jpg",
     "price": 25.000,
     "category": "Fáciles de cuidar",
     "discountPercentage": 8
@@ -219,7 +219,7 @@
     "id": 25,
     "name": "Aspidistra",
     "description": "Una planta muy resistente que tolera poca luz y periodos con la tierra seca mejor que la mayoría.",
-    "image": "/images/plants/plant-04.jpg",
+    "image": "images/plants/plant-04.jpg",
     "price": 31.000,
     "category": "Poca luz",
     "discountPercentage": 10
@@ -228,7 +228,7 @@
     "id": 26,
     "name": "Filodendro Birkin",
     "description": "Sus hojas verde oscuro, decoradas con finas líneas color crema, hacen destacar a este filodendro compacto.",
-    "image": "/images/plants/plant-05.jpg",
+    "image": "images/plants/plant-05.jpg",
     "price": 35.000,
     "category": "Follaje tropical",
     "discountPercentage": 8
@@ -237,7 +237,7 @@
     "id": 27,
     "name": "Poto satinado",
     "description": "Sus hojas aterciopeladas con motas plateadas caen con elegancia desde una repisa luminosa, sin sol directo.",
-    "image": "/images/plants/plant-06.jpg",
+    "image": "images/plants/plant-06.jpg",
     "price": 26.000,
     "category": "Plantas colgantes",
     "discountPercentage": 12
@@ -246,7 +246,7 @@
     "id": 28,
     "name": "Palma cola de caballo",
     "description": "Una planta escultural y resistente a la sequía, con tronco ensanchado y una fuente de hojas rizadas.",
-    "image": "/images/plants/plant-07.jpg",
+    "image": "images/plants/plant-07.jpg",
     "price": 39.000,
     "category": "Fáciles de cuidar",
     "discountPercentage": 8
@@ -255,7 +255,7 @@
     "id": 29,
     "name": "Helecho nido de ave",
     "description": "Sus frondas onduladas se despliegan desde el centro. Ubícalo con luz indirecta y mantén la tierra húmeda.",
-    "image": "/images/plants/plant-02.jpg",
+    "image": "images/plants/plant-02.jpg",
     "price": 27.000,
     "category": "Apta para mascotas",
     "discountPercentage": 5
@@ -264,7 +264,7 @@
     "id": 30,
     "name": "Palma areca",
     "description": "Sus frondas plumosas crean un punto focal frondoso en habitaciones luminosas, lejos del sol directo.",
-    "image": "/images/plants/plant-03.jpg",
+    "image": "images/plants/plant-03.jpg",
     "price": 56.000,
     "category": "Apta para mascotas",
     "discountPercentage": 10

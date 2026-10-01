@@ -10,7 +10,7 @@ function Item({ product }) {
       >
         <img
           className="product-card__image"
-          src={product.image}
+          src={`${import.meta.env.BASE_URL}${product.image}`}
           alt={product.name}
           loading="lazy"
         />

@@ -40,7 +40,7 @@ function ProductPage() {
 
   return (
     <section className="product-detail">
-      <img className="product-detail__image" src={product.image} alt={product.name} />
+      <img className="product-detail__image" src={`${import.meta.env.BASE_URL}${product.image}`} alt={product.name} />
       <div className="product-detail__content">
         <Link to="/products">Volver al catálogo</Link>
         <p className="product-card__category">{product.category}</p>

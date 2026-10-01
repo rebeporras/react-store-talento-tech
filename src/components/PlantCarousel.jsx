@@ -45,7 +45,7 @@ function PlantCarousel() {
         {featuredPlants.map((plant) => (
           <li className="plant-carousel__item" key={plant.id}>
             <Link className="plant-carousel__card" to={`/products/${plant.id}`}>
-              <img src={plant.image} alt={plant.name} loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}${plant.image}`} alt={plant.name} loading="lazy" />
               <div className="plant-carousel__card-info">
                 <h3>{plant.name}</h3>
                 <strong>${plant.price.toFixed(3)}</strong>
