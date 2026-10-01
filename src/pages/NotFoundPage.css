@@ -1,0 +1,14 @@
+.not-found-page {
+  display: grid;
+  min-height: 50vh;
+  align-content: center;
+  justify-items: center;
+  gap: 12px;
+  padding: 32px 20px;
+  text-align: center;
+}
+
+.not-found-page a {
+  color: var(--accent-hover);
+  text-underline-offset: 4px;
+}

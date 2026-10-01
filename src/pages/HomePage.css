@@ -1,0 +1,231 @@
+.ticks {
+  width: min(calc(100% - 80px), 1200px);
+  margin: 40px auto;
+  padding: 44px 36px;
+  border-radius: 8px;
+  color: var(--accent-hover);
+  background: var(--accent-soft);
+  font-family: var(--heading);
+  font-size: 28px;
+}
+
+.spring-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  width: min(calc(100% - 80px), 1200px);
+  margin: 0 auto 48px;
+  padding: 30px 40px;
+  border: 5px solid #f5c7d4;
+  border-radius: 8px;
+  color: #fff;
+  background: var(--accent);
+}
+
+.spring-banner__eyebrow {
+  margin-bottom: 8px;
+  color: #f5c7d4;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.spring-banner h1 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.spring-banner__text > p:last-child {
+  color: #e6f0e5;
+}
+
+.spring-banner__offer {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex: 0 0 auto;
+  color: #f5c7d4;
+}
+
+.spring-banner__offer strong {
+  font-family: var(--heading);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.spring-banner__offer span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.plant-carousel {
+  width: min(calc(100% - 80px), 1200px);
+  margin: 0 auto 56px;
+}
+
+.plant-carousel__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.plant-carousel__eyebrow {
+  margin-bottom: 4px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.plant-carousel__header h2 {
+  margin: 0;
+}
+
+.plant-carousel__controls {
+  display: flex;
+  gap: 8px;
+}
+
+.plant-carousel__controls button {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--text-h);
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 160ms ease, background-color 160ms ease;
+}
+
+.plant-carousel__controls button:hover {
+  color: var(--accent-hover);
+  background: var(--accent-soft);
+}
+
+.plant-carousel__controls button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.plant-carousel__track {
+  display: grid;
+  grid-auto-columns: calc((100% - 64px) / 5);
+  grid-auto-flow: column;
+  gap: 16px;
+  overflow-x: auto;
+  margin: 20px 0 0;
+  padding: 0 2px 14px;
+  list-style: none;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: var(--border) transparent;
+}
+
+.plant-carousel__item {
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.plant-carousel__card {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-h);
+  background: var(--surface);
+  text-decoration: none;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.plant-carousel__card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+}
+
+.plant-carousel__card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.plant-carousel__card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--accent-soft);
+}
+
+.plant-carousel__card-info {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px;
+}
+
+.plant-carousel__card-info h3 {
+  margin: 0;
+  font-family: var(--heading);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.plant-carousel__card-info strong {
+  flex: 0 0 auto;
+  color: var(--accent-hover);
+  font-size: 14px;
+}
+
+@media (max-width: 520px) {
+  .ticks {
+    width: calc(100% - 40px);
+    margin: 28px auto;
+    padding: 30px 24px;
+  }
+
+  .spring-banner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: calc(100% - 40px);
+    margin-bottom: 32px;
+    padding: 24px;
+  }
+
+  .spring-banner h1 {
+    font-size: 26px;
+  }
+
+  .spring-banner__offer strong {
+    font-size: 40px;
+  }
+
+  .plant-carousel {
+    width: calc(100% - 40px);
+    margin-bottom: 40px;
+  }
+
+  .plant-carousel__track {
+    grid-auto-columns: 68%;
+    gap: 12px;
+  }
+
+  .plant-carousel__card-info {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 900px) {
+  .plant-carousel__track {
+    grid-auto-columns: calc((100% - 32px) / 3);
+  }
+}
